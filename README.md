@@ -1,3 +1,1 @@
-> dotnet pack --configuration Release --output ./packages
-
-> nuget add path/packages/GLPchp.1.0.0.nupkg --source path/packages
+## library with corrections and additions to the SDK for peachpie

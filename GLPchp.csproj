@@ -1,17 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
+        <OutputType>Library</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <EnableDynamicLoading>true</EnableDynamicLoading>
-        <Configurations>Debug;ExportDebug;ExportRelease</Configurations>
+        <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU</Platforms>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>GLPchp</Title>
         <Description>GLPchp</Description>
         <Version>0.1.0</Version>
         <Authors>N0zzy</Authors>
+        <PackageProjectUrl>https://github.com/N0zzy</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="GodotSharp" Version="4.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 </Project>
