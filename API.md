@@ -29,7 +29,7 @@ public Callable `OnListener`(string *`$event`*, PhpValue *`$current`*, PhpArray 
 
 > **return**:  *void*
 
-> ### method `OnListenerAll` (all modifier)
+### method `OnListenerAll` (all modifier)
 
 > adding a function or method (callable)
 
