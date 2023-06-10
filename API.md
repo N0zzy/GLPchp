@@ -2,7 +2,6 @@
 
 ## method `On`
 
-
 public function `On` (string  *`$event`*, PhpValue *`$obj`*, PhpCallable *`$action`*, array *`$args`* = null) : ***void***
 
 | Type        | Arg Name | Default | Description             |
@@ -29,7 +28,7 @@ public Callable `OnListener`(string *`$event`*, PhpValue *`$current`*, PhpArray 
 
 > **return**:  *void*
 
-### method `OnListenerAll` (all modifier)
+## method `OnListenerAll` (all modifier)
 
 > adding a function or method (callable)
 
@@ -44,7 +43,7 @@ public Callable `OnListenerAll`(string *`$event`*, PhpValue *`$current`*, PhpArr
 
 > **return**:  *void
 
-> ### method `Get`
+## method `Get`
 
 > adding a function (callable)
 
