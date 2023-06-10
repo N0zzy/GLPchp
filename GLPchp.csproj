@@ -8,17 +8,19 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <Title>GLPchp</Title>
         <Description>GLPchp</Description>
-        <Version>0.1.0</Version>
+        <Version>0.2.0</Version>
         <Authors>N0zzy</Authors>
-        <PackageProjectUrl>https://github.com/N0zzy</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/N0zzy/GLPchp</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="GodotSharp" Version="4.0.3" />
+        <PackageReference Include="Peachpie.Runtime" Version="1.1.9" />
+        <PackageReference Include="Peachpie.Library" Version="1.1.9" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="\"/>
+        <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 </Project>
