@@ -3,12 +3,12 @@
         <OutputType>Library</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <EnableDynamicLoading>true</EnableDynamicLoading>
-        <Configurations>Debug;Release</Configurations>
+        <Configurations>Debug</Configurations>
         <Platforms>AnyCPU</Platforms>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <Title>GLPchp</Title>
         <Description>GLPchp</Description>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
         <Authors>N0zzy</Authors>
         <PackageProjectUrl>https://github.com/N0zzy/GLPchp</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
