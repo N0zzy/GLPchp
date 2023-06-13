@@ -41,7 +41,7 @@ public Callable `OnListenerAll`(string *`$event`*, PhpValue *`$current`*, PhpArr
 | PhpCallable | listener |         | array(2)\[object, method\] |
 | array       | args     | null    | arguments for function     |
 
-> **return**:  *void
+> **return**:  *void*
 
 
 # class `UFunc`
