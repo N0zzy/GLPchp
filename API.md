@@ -1,4 +1,4 @@
-# class `CallableFunc`
+# class `UxEvent`
 
 ## method `On`
 
@@ -43,7 +43,10 @@ public Callable `OnListenerAll`(string *`$event`*, PhpValue *`$current`*, PhpArr
 
 > **return**:  *void
 
-## method `Get`
+
+# class `UFunc`
+
+## method `Add`
 
 > adding a function (callable)
 
