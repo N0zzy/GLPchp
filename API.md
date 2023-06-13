@@ -50,7 +50,7 @@ public Callable `OnListenerAll`(string *`$event`*, PhpValue *`$current`*, PhpArr
 
 > adding a function (callable)
 
-public static `Get`(PhpCallable *`$action`*, array *`$args`* = null): ***\Godot\Callable***
+public static `Add`(PhpCallable *`$action`*, array *`$args`* = null): ***\Godot\Callable***
 
 | Type        | Arg Name | Default | Description            |
 |:------------|:---------|:--------|:-----------------------|
