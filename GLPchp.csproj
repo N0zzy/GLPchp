@@ -8,7 +8,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <Title>GLPchp</Title>
         <Description>GLPchp</Description>
-        <Version>0.2.2</Version>
+        <Version>0.2.3</Version>
         <Authors>N0zzy</Authors>
         <PackageProjectUrl>https://github.com/N0zzy/GLPchp</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
