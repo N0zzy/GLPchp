@@ -57,5 +57,5 @@ public static `Add`(PhpCallable *`$action`*, array *`$args`* = null): ***\Godot\
 | PhpCallable | $action  |         | callable function      |
 | array       | $args    | null    | arguments for function |
 
-> **return**:  *\Godot\Callable*
+> **return**:  *Godot\Callable*
 
