@@ -1,5 +1,6 @@
 *
-!src
+!/src
+!/src/*
 !.gitignore
 !API.md
 !FAQ.md
