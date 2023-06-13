@@ -3,7 +3,7 @@ using Pchp.Core;
 
 namespace GLPchp;
 
-public sealed class UFunc: Service.Utils
+public sealed class UFunc: Service.UvPhpCallable
 {
     public static Callable Add(PhpCallable action, PhpArray args = null)
     {

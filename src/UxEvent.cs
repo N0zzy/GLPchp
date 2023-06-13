@@ -3,7 +3,7 @@ using Pchp.Core;
 
 namespace GLPchp;
 
-public sealed class UxEvent: Service.Utils
+public sealed class UxEvent: Service.UvPhpCallable
 {
     public void On(string @event, PhpValue current, PhpCallable func, PhpArray args = null)
     {
