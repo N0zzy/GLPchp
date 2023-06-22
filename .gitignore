@@ -1,9 +1,0 @@
-*
-!/src
-!/src/*
-!.gitignore
-!API.md
-!FAQ.md
-!GLPchp.csproj
-!LICENSE
-!README.md
