@@ -14,15 +14,17 @@ public sealed class UxEvent: Service.UvPhpCallable
     
     public void OnListener(string @event, PhpValue current, PhpArray listener, PhpArray args = null)
     {
+        listener = GetActive(current, listener);
         Execute(@event, current, Callable.From(() => {
-            CallableListener(listener, _bindingFlagsBasic, args);
+            CallableListener(listener, _bindingFlagsAll, args);
         }));
     }
     
-    public void OnListenerAll(string @event, PhpValue current, PhpArray listener, PhpArray args = null)
+    public void OnScope(string @event, PhpValue current, PhpArray listener, PhpArray args = null)
     {
+        listener = GetActive(current, listener);
         Execute(@event, current, Callable.From(() => {
-            CallableListener(listener, _bindingFlagsAll, args);
+            CallableListener(listener, _bindingFlagsBasic, args);
         }));
     }
 
@@ -30,5 +32,13 @@ public sealed class UxEvent: Service.UvPhpCallable
     {
         GodotObject gObj = (GodotObject)current.AsObject(); 
         gObj.Connect(new StringName(@event), callable);
+    }
+    
+    private PhpArray GetActive(PhpValue current, PhpArray listener)
+    {
+        return (listener[0].IsEmpty) ? new PhpArray() {
+            current, 
+            listener[1]
+        } : listener;
     }
 }
